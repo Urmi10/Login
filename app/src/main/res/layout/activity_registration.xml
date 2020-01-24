@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F5F2E9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+    <ImageView android:id="@id/imageView5"
+        android:layout_width="162.0dip" android:layout_height="122.0dip" android:layout_marginLeft="124.0dip" android:layout_marginTop="75.0dip" android:layout_marginRight="124.0dip" android:layout_marginBottom="534.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="124.0dip" android:layout_marginEnd="124.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.439" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/t2" />
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="245.0dip"
+        android:layout_height="33.0dip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/button"
+        android:text="Register" />
+    <Button android:textColor="#ff000000" android:id="@+id/button3" android:background="@drawable/button" android:layout_width="245.0dip" android:layout_height="33.0dip" android:layout_marginLeft="83.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="82.0dip" android:layout_marginBottom="71.0dip" android:text="Sign In" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="83.0dip" android:layout_marginEnd="82.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.903" />
+    <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@+id/textView2" android:layout_width="204.0dip" android:layout_height="19.0dip" android:layout_marginLeft="120.0dip" android:layout_marginRight="86.0dip" android:layout_marginBottom="110.0dip" android:text="Already Have a Account ?" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="120.0dip" android:layout_marginEnd="86.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="330.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:ems="10"
+        android:hint="E-Mail ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="328.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>

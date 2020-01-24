@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "718893526362",
+    "firebase_url": "https://discussit-daf46.firebaseio.com",
+    "project_id": "discussit-daf46",
+    "storage_bucket": "discussit-daf46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718893526362:android:da7c9f5d9ace616eaf5763",
+        "android_client_info": {
+          "package_name": "com.app.discussit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718893526362-vppbcm0acfld56ahu9v0gpesdl7jgag7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.discussit",
+            "certificate_hash": "5e9501d062fd23d09b31815a4ff008020b12fd4a"
+          }
+        },
+        {
+          "client_id": "718893526362-e1apeq1gk36si8k66jl0813q8c4fllf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo0Zw1sG8eds7PHWHEDaQ6ZfioH0VVIDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718893526362-e1apeq1gk36si8k66jl0813q8c4fllf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
